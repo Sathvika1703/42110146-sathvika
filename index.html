@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device, initial-scale=1.0">
+        <title>ERP</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="project">
+            <h1>Signup Page</h1>
+            <div class="bg-container">
+                <div class="card" style="margin-top:40px;">
+                    <form id="loginForm" action="dbcon.php" method="post">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input name="name" type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="reg no">Reg No</label>
+                            <input name="reg_no" type="text" class="form-control" id="reg_no" placeholder="Enter regno">
+                        </div>
+                        <div class="form-group">
+                            <label for="year">Year</label>
+                            <input name="year" type="text" class="form-control" id="year" placeholder="Enter year">
+                        </div>
+                        <div class="form-group">
+                            <label for="section">Section</label>
+                            <input  name="section" type="text" class="form-control" id="section" placeholder="Enter section">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone no">Phone No</label>
+                            <input name="phone_no" type="text" class="form-control" id="phone_no" placeholder="Enter phone no">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email Id</label>
+                            <input name="Email" type="text" class="form-control" id="Email" placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="Address">Address</label>
+                            <input name="Address" type="text" class="form-control" id="Address" placeholder="Enter Address">
+                        </div>
+                        <button id="submitbutton" type="submit" class="btn btn-primary">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
